@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "holberton.h"
 
 /**
  * print_square - a function that prints a square, followed by a new line
@@ -7,7 +7,7 @@
  */
 void print_square(int size)
 {
-	int c, r;
+	int co, ro;
 
 	if (size <= 0)
 	{
@@ -15,10 +15,10 @@ void print_square(int size)
 	}
 	else
 	{
-		for (c = 1; c <= size; c++)
+		for (co = 1; co <= size; co++)
 		{
 			_putchar('#');
-			for (r = 2; r <= size; r++)
+			for (ro = 2; ro <= size; ro++)
 			{
 				_putchar('#');
 			}
