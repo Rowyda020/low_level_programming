@@ -1,16 +1,15 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
- * _puts - a function that prints a string, followed by a new line, to stdout.
- * @str: input string
+ * _puts - prints a string, followed by a new line, to stdout
+ * @str: string to print
  */
 void _puts(char *str)
 {
-	int indx;
-
-	for (indx = 0; indx != '\0'; indx++)
+	while (*str != '\0')
 	{
-		_putchar(str[indx]);
+		_putchar(*str++);
 	}
-	_putchar('\n');
+		_putchar('\n');
 }
+
+
